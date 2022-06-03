@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Playfair+Display&display=swap');
+/* navbar */
+
+.nav-item {
+  padding-left: 2px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.navbar-nav {
+  margin-top: 50px;
+  padding-right: 18px;
+}
+
+.navbar-brand {
+  font-size: 36px;
+  margin-top: 50px;
+
+}
+
+.navbar-toggler {
+  background-color: white !important;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.hero-button {
+  background-color: #EE8351;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 50px 2px;
+  border-radius: 2px;
+  width: 180px;
+  letter-spacing: 3px;
+}
+
+.hero-button:hover {
+  opacity: 0.7;
+}
+
+.banner-heading {
+  font-size: 60px;
+}
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: white;
+  margin: 10px 0px;
+}
+
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: #FBF8F5;
+  height: 1px;
+  margin: 0px 10px;
+}
+
+.about-heading {
+  font-size: 60px;
+}
+
+#about {
+  background-color: #FBF8F5;
+}
+
+.progress-bar {
+  background-color: #ee8351;
+}
+
+.progress {
+  background-color: #1e2854 !important;
+}
+
+.simple-box {
+  border: 2px solid grey;
+  padding: 7px;
+}
+
+.simple-box-2 {
+  border: 2px solid grey;
+  padding: 20px;
+}
+
+.box {
+  border: 2px solid #1E2854;
+  padding: 20px;
+  background-color: #1E2854;
+  color: #FBF8F5;
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+}
+
+.testimonial-button {
+  background-color: #EE8351;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 20px 2px;
+  border-radius: 2px;
+  width: 180px;
+  letter-spacing: 3px;
+}
+
+.testimonial-button:hover {
+  opacity: 0.7;
+}
+
+.card{
+  border-style:none;
+}
+.progress-bar {
+  background-color: #ee8351;
+}
+
+.progress {
+  background-color: #1e2854 !important;
+}
+
+.simple-box {
+  border: 2px solid grey;
+  padding: 7px;
+}
+
+.simple-box-2 {
+  border: 2px solid grey;
+  padding: 20px;
+}
+
+.footer-titles {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .card-us {
+    font-size: 15px;
+  }
+}
+
+.view-desktop {
+  display: block;
+}
+
+.view-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .view-desktop {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .view-mobile {
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .brand-title {
+    display: flex;
+    justify-content: center;
+  }
+  .box{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+  }
+}
